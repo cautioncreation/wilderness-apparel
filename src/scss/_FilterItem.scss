@@ -1,0 +1,37 @@
+.filter-item {
+  margin: 0 15px 15px;
+}
+
+.filter-item__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: $theme-color-primary;
+}
+
+.filter-item__title {
+  margin: 0 0 0 15px;
+}
+
+.filter-item__button {
+  padding: 0;
+  background: none;
+  border: none;
+}
+
+.filter-item__icon {
+  height: 40px;
+  width: 40px;
+  padding: 4px 4px;
+}
+
+.filter-item__dropdown {
+  display: none;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.filter-item__dropdown--show {
+  @extend .filter-item__dropdown;
+  display: flex;
+}

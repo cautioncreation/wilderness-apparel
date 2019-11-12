@@ -1,0 +1,27 @@
+@import "./custom/custom";
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+@import "header";
+@import "footer";
+
+@import "home";
+@import "hero";
+@import "homefooter";
+@import "categoriesarrow";
+
+@import "culture";
+
+@import "contact";
+@import "contactform";
+
+@import "categories";
+@import "categoryitem";
+
+@import "shop";
+@import "shoplist";
+@import "shopitem";
+
+@import "filter";
+@import "filteritem";
+@import "filteritembutton";

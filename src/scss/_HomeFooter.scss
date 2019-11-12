@@ -1,0 +1,15 @@
+.home-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: $theme-footer-color;
+}
+
+.home-footer__social-icon {
+  width: 40px;
+  height: 40px;
+  margin: 4px 4px;
+}

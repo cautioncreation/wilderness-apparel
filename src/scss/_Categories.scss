@@ -1,0 +1,13 @@
+.categories__container {
+  margin-top: 30px;
+}
+
+.categories__row {
+  padding-bottom: 0px;
+}
+
+@include media-breakpoint-up(lg) {
+  .categories__row {
+    padding-bottom: 30px;
+  }
+}

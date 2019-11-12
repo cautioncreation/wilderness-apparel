@@ -1,0 +1,21 @@
+.filter-item-button {
+  display: inline-block;
+  background-color: transparent;
+  margin: 5px 0;
+  padding: 4px 4px;
+  border: 1px solid black;
+}
+
+.filter-item-button--active {
+  @extend .filter-item-button;
+  background-color: $theme-color-primary;
+
+  .filter-item-button__text {
+    color: $theme-color-tertiary;
+  }
+}
+
+.filter-item-button__text {
+  margin: 0;
+  text-transform: uppercase;
+}

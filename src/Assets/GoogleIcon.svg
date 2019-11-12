@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_3" data-name="Rectangle 3" width="60" height="60" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="GoogleIcon" clip-path="url(#clip-path)">
+    <g id="Group_2" data-name="Group 2" transform="translate(-0.014 0.011)">
+      <path id="Path_2" data-name="Path 2" d="M30,60A29.966,29.966,0,1,1,41.68,57.639,29.99,29.99,0,0,1,30,60Zm-5.49-39a9.5,9.5,0,0,0,0,19,9.006,9.006,0,0,0,6.637-2.605,9.329,9.329,0,0,0,2.512-6.677,8.808,8.808,0,0,0-.15-1.574h-9V32.4h5.4a5.133,5.133,0,0,1-5.4,4.1,6,6,0,1,1,0-12,5.356,5.356,0,0,1,3.8,1.466L30.9,23.48A9.2,9.2,0,0,0,24.513,21Zm12.25,8.142v2.714h2.724v2.715h2.729V31.854h2.722V29.142H42.215V26.427H39.491v2.715Z" transform="translate(0.011 -0.009)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

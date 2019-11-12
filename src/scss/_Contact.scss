@@ -1,0 +1,46 @@
+.contact {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: url("../Assets/HeroImage.jpg");
+  background-attachment: fixed;
+  background-position: top; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.contact__container {
+  padding-top: 64px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.contact__title-container {
+  background: none;
+  padding: 1rem;
+  margin-bottom: 0;
+}
+
+.contact__title {
+  max-width: 100%;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.contact__phrase {
+  text-align: center;
+}
+
+.contact__info-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+@include media-breakpoint-up(lg) {
+  .contact__title {
+    font-size: 5rem;
+  }
+}

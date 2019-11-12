@@ -1,0 +1,65 @@
+.culture {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: url("../Assets/HeroImage.jpg");
+  background-attachment: fixed;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.culture__container {
+  padding-top: 64px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.culture__title-container {
+  background: none;
+  padding: 1rem;
+  margin-bottom: 0;
+}
+
+.culture__title {
+  max-width: 100%;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.culture__phrase {
+  text-align: center;
+}
+
+.culture__text {
+  font-size: 1.25rem;
+  text-align: center;
+  display: block;
+}
+
+.culture__card {
+  background-color: $theme-color-background;
+  margin-bottom: 30px;
+  border: 2px solid white;
+}
+
+.culture__card-image {
+  width: 100%;
+}
+
+.culture__card-title {
+  text-align: center;
+}
+
+.culture__card-info {
+  text-align: center;
+}
+
+@include media-breakpoint-up(lg) {
+  .culture__title {
+    font-size: 5rem;
+  }
+}

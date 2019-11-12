@@ -1,0 +1,71 @@
+body,
+html {
+  min-height: 100%;
+  width: 100%;
+}
+
+// Custom Variables
+$theme-color-primary: #38382f;
+$theme-color-secondary: #fff;
+$theme-color-tertiary: #ffd700;
+$theme-color-background: #888888;
+
+$theme-header-color: rgba(56, 56, 47, 0.75);
+$theme-footer-color: rgba(0, 0, 0, 0.5);
+
+$theme-font-base: "Raleway", sans-serif;
+
+$theme-headings-weight: 900;
+
+$theme-border-width: 2px;
+
+$theme-font-size: 1rem;
+
+// Bootstrap Variable overrides
+$primary: $theme-color-primary;
+$secondary: $theme-color-secondary;
+
+$body-color: $theme-color-secondary;
+
+$link-color: $theme-color-secondary;
+$link-hover-decoration: none;
+
+$border-width: $theme-border-width;
+
+$font-family-base: $theme-font-base;
+
+$font-size-base: $theme-font-size;
+
+$headings-font-family: $theme-font-base;
+$headings-font-weight: $theme-headings-weight;
+$headings-color: $theme-color-secondary;
+
+$display1-weight: 600;
+$display2-weight: 600;
+$display3-weight: 600;
+$display4-weight: 600;
+
+$hr-border-color: $theme-color-primary;
+$hr-border-width: $theme-border-width;
+
+$navbar-light-color: $theme-color-secondary;
+$navbar-light-hover-color: $theme-color-secondary;
+$navbar-light-active-color: $theme-color-tertiary;
+$navbar-light-toggler-icon-bg: none !default;
+$navbar-light-toggler-border-color: $theme-color-secondary;
+$navbar-light-brand-hover-color: $theme-color-tertiary;
+
+$dropdown-bg: $theme-color-secondary;
+$dropdown-border-color: $theme-color-primary;
+$dropdown-min-width: 0 !default;
+$dropdown-header-color: $theme-color-secondary;
+
+$component-active-color: $theme-color-tertiary;
+
+// Universal Customs
+.btn-primary {
+  font-weight: bold !important;
+  &:hover {
+    color: $theme-color-tertiary !important;
+  }
+}
