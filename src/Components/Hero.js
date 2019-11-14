@@ -18,7 +18,7 @@ class Hero extends Component {
             <img className="hero__text" src={ HeroTextMobile } alt="Explore The Unknown"/>
           </picture>
           <div className="hero__button-container">
-            <Link className="hero__button-link" to="/categories">
+            <Link className="hero__button-link" to="/shop">
               <Button className="hero__button" size="lg">
                 Explorer Collection
               </Button>
