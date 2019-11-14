@@ -3,58 +3,45 @@ import { Row, Container } from 'react-bootstrap';
 
 import Header from './Header.js';
 import Filter from './Filter.js';
-import ShopList from './ShopList.js';
+import Catalog from './Catalog.js';
 import Footer from './Footer.js';
 
-import ShopHeroImage from '../Assets/ShopHeroImage.jpg';
+import ShopHeroImage from '../Assets/jpg/ShopHeroImage.jpg';
 
 class Shop extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      filters: {
-        categories: {
-          mens: false,
-          womens: false,
-          pants: false,
-          shirts: false,
-          sweaters: false,
-          accessories: false,
-          featured: false
-        },
-        sort: {
-          highToLow: false,
-          lowToHigh: false
-        },
-        size: {
-          xs: false,
-          sm: false,
-          md: false,
-          lg: false,
-          xl: false,
-          xxl: false,
-          xxxl: false
-        },
-        price: {
-          min: false,
-          max: false
-        },
-        colour: {
-          red: false,
-          orange: false,
-          yellow: false,
-          green: false,
-          blue: false,
-          pink: false,
-          purple: false,
-          grey: false,
-          black: false,
-          white: false
-        }
-      }
+      genderFilter: [],
+      typeFilter: [],
+      sortFilter: ["featured items first"],
+      sizeFilter: [],
+      colourFilter: []
     };
+    
+    this.toggleFilter = this.toggleFilter.bind(this);
+    this.replaceFilter = this.replaceFilter.bind(this);
   }
+
+  toggleFilter(filterType, filterName) {
+    var filterArray = this.state[filterType] || [];
+
+    if (filterArray.includes(filterName)) {
+      let filterIndex = filterArray.indexOf(filterName);
+      filterArray.splice(filterIndex, 1);
+    }
+    else {
+      filterArray.push(filterName);
+    }
+
+    this.setState({[filterType]: filterArray});
+  }
+
+  replaceFilter(filterType, filterName) {
+    this.setState({[filterType]: [filterName]});
+  }
+
   render() {
     return(
       <div className="shop">
@@ -64,8 +51,22 @@ class Shop extends Component {
             <img className="shop__hero-image" src={ShopHeroImage} alt="Wilderness Apparel Co." />
           </div>
           <Row className="shop__row">
-            <Filter filters={this.state.filters} />
-            <ShopList />
+            <Filter
+              genderFilter={this.state.genderFilter}
+              typeFilter={this.state.typeFilter}
+              sortFilter={this.state.sortFilter}
+              sizeFilter={this.state.sizeFilter}
+              colourFilter={this.state.colourFilter}
+              toggleFilter={this.toggleFilter}
+              replaceFilter={this.replaceFilter}
+            />
+            <Catalog
+              genderFilter={this.state.genderFilter}
+              typeFilter={this.state.typeFilter}
+              sortFilter={this.state.sortFilter}
+              sizeFilter={this.state.sizeFilter}
+              colourFilter={this.state.colourFilter}
+            />
           </Row>
         </Container>
         <Footer />

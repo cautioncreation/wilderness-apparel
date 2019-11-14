@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
-import FacebookIcon from '../Assets/FacebookIcon.svg';
-import InstagramIcon from '../Assets/InstagramIcon.svg';
-import GoogleIcon from '../Assets/GoogleIcon.svg';
+import FacebookIcon from '../Assets/svg/FacebookIcon.svg';
+import InstagramIcon from '../Assets/svg/InstagramIcon.svg';
+import GoogleIcon from '../Assets/svg/GoogleIcon.svg';
 
 class Footer extends Component {
   render() {

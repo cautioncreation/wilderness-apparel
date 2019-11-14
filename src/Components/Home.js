@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 
 import Header from './Header';
 import Hero from './Hero';
-import Categories from './Categories';
+import Arrow from './Arrow.js';
+import HomeCategories from './HomeCategories';
 import Footer from './Footer';
 
 class Home extends Component {
@@ -11,7 +12,8 @@ class Home extends Component {
       <div className="home">
         <Header />
         <Hero />
-        <Categories />
+        <Arrow />
+        <HomeCategories />
         <Footer />
       </div>
     )

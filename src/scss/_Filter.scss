@@ -1,9 +1,21 @@
-.filter-menu__title-container {
-  background: $theme-color-primary;
-  margin: 0 15px 30px;
+.filter {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
 }
 
-.filter-menu__title {
+.filter .filter__container {
+  border: 2px solid grey;
+  height: 100%;
+  width: 100%;
+  padding-top: 30px;
+}
+
+.filter__title-container {
+  background: $theme-color-primary;
+}
+
+.filter__title {
   text-align: center;
   margin: 0;
 }

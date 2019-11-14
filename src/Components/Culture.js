@@ -3,9 +3,9 @@ import React, { Component } from 'react';
 import Header from './Header.js';
 import Footer from './Footer.js';
 
-import MeganPortrait from '../Assets/MeganPortrait.jpg';
-import BenjaminPortrait from '../Assets/BenjaminPortrait.jpg';
-import WilliamPortrait from '../Assets/WilliamPortrait.jpg';
+import MeganPortrait from '../Assets/jpg/MeganPortrait.jpg';
+import BenjaminPortrait from '../Assets/jpg/BenjaminPortrait.jpg';
+import WilliamPortrait from '../Assets/jpg/WilliamPortrait.jpg';
 
 import { Container, Jumbotron, Row, Col, Card } from 'react-bootstrap';
 

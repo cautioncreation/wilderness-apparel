@@ -3,24 +3,24 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 @import "header";
+@import "arrow";
+@import "hero";
 @import "footer";
 
 @import "home";
-@import "hero";
 @import "homefooter";
-@import "categoriesarrow";
+@import "homecategories";
+@import "homecategoryitem";
 
 @import "culture";
 
 @import "contact";
 @import "contactform";
 
-@import "categories";
-@import "categoryitem";
-
 @import "shop";
-@import "shoplist";
-@import "shopitem";
+
+@import "catalog";
+@import "catalogitem";
 
 @import "filter";
 @import "filteritem";

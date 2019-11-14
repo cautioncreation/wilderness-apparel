@@ -1,5 +1,5 @@
 .header {
-  position: absolute;
+  position: fixed;
   z-index: 1100;
   width: 100%;
   background-color: $theme-header-color;
@@ -29,7 +29,7 @@
   .navbar-toggler-icon {
     height: 48px;
     width: 48px;
-    background-image: url("../Assets/MenuIcon.svg");
+    background-image: url("../Assets/svg/MenuIcon.svg");
     &:focus {
       outline: none;
     }

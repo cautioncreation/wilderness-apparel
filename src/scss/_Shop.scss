@@ -14,5 +14,12 @@
 }
 
 .shop__hero-image {
+  display: none;
   width: 100%;
+}
+
+@include media-breakpoint-up(md) {
+  .shop__hero-image {
+    display: block;
+  }
 }

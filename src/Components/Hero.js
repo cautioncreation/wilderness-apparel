@@ -2,12 +2,11 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
 import HomeFooter from './HomeFooter.js';
-import CategoriesArrow from './CategoriesArrow';
 
 import { Button } from 'react-bootstrap';
 
-import HeroTextDesktop from '../Assets/HeroTextDesktop.svg';
-import HeroTextMobile from '../Assets/HeroTextMobile.svg';
+import HeroTextDesktop from '../Assets/svg/HeroTextDesktop.svg';
+import HeroTextMobile from '../Assets/svg/HeroTextMobile.svg';
 
 class Hero extends Component {
   render () {
@@ -26,7 +25,6 @@ class Hero extends Component {
             </Link>
           </div>
         </div>
-        <CategoriesArrow />
         <HomeFooter />
       </div>
     );

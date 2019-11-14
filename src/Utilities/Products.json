@@ -1,0 +1,162 @@
+[
+    {
+      "id": "0001",
+      "name": "Black Baseball Cap",
+      "price": 21.99,
+      "gender": ["mens"],
+      "type": ["accessories"],
+      "size": ["x-small", "small", "medium", "large", "x-large", "xx-large", "xxx-large"],
+      "colour": ["black"],
+      "isFeatured": false
+    },
+    {
+      "id": "0002",
+      "name": "Red Infinity Scarf",
+      "price": 40.99,
+      "gender": ["womens"],
+      "type": ["accessories"],
+      "size": ["x-small", "small", "medium", "large", "x-large", "xx-large", "xxx-large"],
+      "colour": ["black", "red"],
+      "isFeatured": true
+    },
+    {
+      "id": "0003",
+      "name": "Blue Winter Toque",
+      "price": 18.99,
+      "gender": ["mens", "womens"],
+      "type": ["accessories"],
+      "size": ["x-small", "small", "medium", "large", "x-large", "xx-large", "xxx-large"],
+      "colour": ["blue"],
+      "isFeatured": true
+    },
+    {
+      "id": "0004",
+      "name": "Red Summer Toque",
+      "price": 16.99,
+      "gender": ["mens", "womens"],
+      "type": ["accessories"],
+      "size": ["x-small", "small", "medium", "large", "x-large", "xx-large", "xxx-large"],
+      "colour": ["red"],
+      "isFeatured": false
+    },
+    {
+      "id": "1101",
+      "name": "Black Wilderness Pants",
+      "price": 60.99,
+      "gender": ["mens"],
+      "type": ["pants"],
+      "size": ["x-small", "small", "medium", "large", "x-large", "xx-large", "xxx-large"],
+      "colour": ["black"],
+      "isFeatured": true
+    },
+    {
+      "id": "1102",
+      "name": "Yellow Khaki Pants",
+      "price": 39.99,
+      "gender": ["mens"],
+      "type": ["pants"],
+      "size": ["x-small", "small", "medium", "large", "x-large", "xx-large", "xxx-large"],
+      "colour": ["yellow"],
+      "isFeatured": false
+    },
+    {
+      "id": "1201",
+      "name": "Black Stretch Leggings",
+      "price": 50.99,
+      "gender": ["womens"],
+      "type": ["pants"],
+      "size": ["x-small", "small", "medium", "large", "x-large", "xx-large", "xxx-large"],
+      "colour": ["black"],
+      "isFeatured": false
+    },
+    {
+      "id": "1202",
+      "name": "Red Wilderness Pants",
+      "price": 60.99,
+      "gender": ["womens"],
+      "type": ["pants"],
+      "size": ["x-small", "small", "medium", "large", "x-large", "xx-large", "xxx-large"],
+      "colour": ["red"],
+      "isFeatured": true
+    },
+    {
+      "id": "2101",
+      "name": "Green Pines Tee",
+      "price": 22.99,
+      "gender": ["mens"],
+      "type": ["shirts"],
+      "size": ["x-small", "small", "medium", "large", "x-large", "xx-large", "xxx-large"],
+      "colour": ["green"],
+      "isFeatured": true
+    },
+    {
+      "id": "2102",
+      "name": "Grey Mountain Tee",
+      "price": 27.99,
+      "gender": ["mens"],
+      "type": ["shirts"],
+      "size": ["x-small", "small", "medium", "large", "x-large", "xx-large", "xxx-large"],
+      "colour": ["grey", "green"],
+      "isFeatured": false
+    },
+    {
+      "id": "2201",
+      "name": "Black Wander Tee",
+      "price": 23.99,
+      "gender": ["womens"],
+      "type": ["shirts"],
+      "size": ["x-small", "small", "medium", "large", "x-large", "xx-large", "xxx-large"],
+      "colour": ["black", "white"],
+      "isFeatured": true
+    },
+    {
+      "id": "2202",
+      "name": "Blue Wild Tee",
+      "price": 24.99,
+      "gender": ["womens"],
+      "type": ["shirts"],
+      "size": ["x-small", "small", "medium", "large", "x-large", "xx-large", "xxx-large"],
+      "colour": ["blue", "white"],
+      "isFeatured": false
+    },
+    {
+      "id": "3101",
+      "name": "Green Pines Sweater",
+      "price": 71.99,
+      "gender": ["mens"],
+      "type": ["sweaters"],
+      "size": ["x-small", "small", "medium", "large", "x-large", "xx-large", "xxx-large"],
+      "colour": ["green"],
+      "isFeatured": true
+    },
+    {
+      "id": "3102",
+      "name": "Black Wild Sweater",
+      "price": 64.99,
+      "gender": ["mens"],
+      "type": ["sweaters"],
+      "size": ["x-small", "small", "medium", "large", "x-large", "xx-large", "xxx-large"],
+      "colour": ["black"],
+      "isFeatured": false
+    },
+    {
+      "id": "3201",
+      "name": "Pink Flower Sweater",
+      "price": 53.99,
+      "gender": ["womens"],
+      "type": ["sweaters"],
+      "size": ["x-small", "small", "medium", "large", "x-large", "xx-large", "xxx-large"],
+      "colour": ["pink"],
+      "isFeatured": false
+    },
+    {
+      "id": "3202",
+      "name": "Red Wild Sweater",
+      "price": 58.99,
+      "gender": ["womens"],
+      "type": ["sweaters"],
+      "size": ["x-small", "small", "medium", "large", "x-large", "xx-large", "xxx-large"],
+      "colour": ["red", "white"],
+      "isFeatured": true
+    }
+]

@@ -1,0 +1,33 @@
+.catalog-item {
+  padding-bottom: 30px;
+  font-weight: 800;
+}
+
+.catalog-item__container {
+  border: none;
+}
+
+.catalog-item__image {
+  display: block;
+  max-width: 100%;
+  max-height: 450px;
+  margin: auto;
+
+  &:hover {
+    animation-name: catalog-item__image;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+  }
+}
+
+.catalog-item__text {
+  color: $theme-color-primary;
+  font-weight: normal;
+  text-align: center;
+}
+
+@keyframes catalog-item__image {
+  to {
+    opacity: 0.75;
+  }
+}

@@ -1,0 +1,13 @@
+.home-categories__container {
+  margin-top: 30px;
+}
+
+.home-categories__row {
+  padding-bottom: 0px;
+}
+
+@include media-breakpoint-up(lg) {
+  .home-categories__row {
+    padding-bottom: 30px;
+  }
+}

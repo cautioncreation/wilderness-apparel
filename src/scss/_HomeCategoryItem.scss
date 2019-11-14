@@ -1,0 +1,28 @@
+.home-category-item {
+  padding-bottom: 30px;
+  overflow: hidden;
+}
+
+.home-category-item__image {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+
+  &:hover {
+    animation-name: home-category-item__image;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .home-category-item {
+    padding-bottom: 0px;
+  }
+}
+
+@keyframes home-category-item__image {
+  to {
+    filter: grayscale(1);
+  }
+}

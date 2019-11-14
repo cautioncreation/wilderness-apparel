@@ -1,0 +1,15 @@
+.arrow {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 48px;
+  left: 0;
+  right: 0;
+  top: auto;
+  flex-direction: column;
+}
+
+.arrow__icon {
+  height: 20px;
+}

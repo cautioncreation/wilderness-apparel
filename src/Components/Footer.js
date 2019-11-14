@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import {Container, Row, Col} from 'react-bootstrap';
 
-import Logo from '../Assets/Logo.svg';
+import Logo from '../Assets/svg/Logo.svg';
 
 class Footer extends Component {
   render() {

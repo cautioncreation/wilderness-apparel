@@ -2,8 +2,8 @@ import React, {Component} from 'react';
 import { IndexLinkContainer } from 'react-router-bootstrap';
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 
-import Logo from '../Assets/Logo.svg';
-import BrandName from '../Assets/BrandName.svg';
+import Logo from '../Assets/svg/Logo.svg';
+import BrandName from '../Assets/svg/BrandName.svg';
 
 class Header extends Component {
   render() {
