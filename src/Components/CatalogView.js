@@ -25,8 +25,7 @@ class CatalogView extends Component {
                 <p className="catalog-view__description">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                  laboris nisi ut aliquip ex ea commodo consequat.
+                  Ut enim ad minim veniam, quis nostrud exercitation.
                 </p>
               </div>
               <div className="catalog-view__button-container">
