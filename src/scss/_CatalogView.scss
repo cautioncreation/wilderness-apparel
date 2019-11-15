@@ -1,0 +1,17 @@
+.catalog-view {
+  color: $theme-color-primary;
+}
+
+.catalog-view__column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.catalog-view__image {
+  max-width: 100%;
+}
+
+.catalog-view__text {
+  color: $theme-color-primary;
+}
