@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/wilderness-apparel/static/css/main.9ff0674e.chunk.css",
-    "main.js": "/wilderness-apparel/static/js/main.39dbf944.chunk.js",
-    "main.js.map": "/wilderness-apparel/static/js/main.39dbf944.chunk.js.map",
+    "main.js": "/wilderness-apparel/static/js/main.91a6123b.chunk.js",
+    "main.js.map": "/wilderness-apparel/static/js/main.91a6123b.chunk.js.map",
     "runtime-main.js": "/wilderness-apparel/static/js/runtime-main.1da38ab1.js",
     "runtime-main.js.map": "/wilderness-apparel/static/js/runtime-main.1da38ab1.js.map",
     "static/js/2.8379f40d.chunk.js": "/wilderness-apparel/static/js/2.8379f40d.chunk.js",
     "static/js/2.8379f40d.chunk.js.map": "/wilderness-apparel/static/js/2.8379f40d.chunk.js.map",
     "index.html": "/wilderness-apparel/index.html",
-    "precache-manifest.5d811de03f5f5c87648ec604ab3e6582.js": "/wilderness-apparel/precache-manifest.5d811de03f5f5c87648ec604ab3e6582.js",
+    "precache-manifest.b812f4a2958d346b99f34b1638e483ce.js": "/wilderness-apparel/precache-manifest.b812f4a2958d346b99f34b1638e483ce.js",
     "service-worker.js": "/wilderness-apparel/service-worker.js",
     "static/css/main.9ff0674e.chunk.css.map": "/wilderness-apparel/static/css/main.9ff0674e.chunk.css.map",
     "static/media/0001.jpg": "/wilderness-apparel/static/media/0001.23d0912b.jpg",
@@ -55,6 +55,6 @@
     "static/js/runtime-main.1da38ab1.js",
     "static/js/2.8379f40d.chunk.js",
     "static/css/main.9ff0674e.chunk.css",
-    "static/js/main.39dbf944.chunk.js"
+    "static/js/main.91a6123b.chunk.js"
   ]
 }
