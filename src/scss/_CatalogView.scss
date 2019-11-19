@@ -19,6 +19,36 @@
   max-width: 100%;
 }
 
+.catalog-view__text-container {
+  margin-bottom: 10px;
+}
+
 .catalog-view__text {
   color: $theme-color-primary;
+}
+
+.catalog-view__price-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.catalog-view__line {
+  border: none;
+  margin: 0;
+  border-bottom: 1px solid black;
+}
+
+.catalog-view__size-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  justify-content: space-around;
+}
+
+.catalog-view__description {
+  margin: 0;
+  text-align: justify;
 }

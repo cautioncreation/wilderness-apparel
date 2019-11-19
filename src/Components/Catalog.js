@@ -4,11 +4,14 @@ import { Col, Row } from 'react-bootstrap';
 
 import CatalogItem from './CatalogItem';
 
-import Products from './../Utilities/Products.json';
+import ProductData from './../Utilities/Products.json';
 
 class Catalog extends Component {
   constructor(props) {
     super(props);
+
+    console.log(ProductData);
+
     this.sortProducts = this.sortProducts.bind(this);
     this.filterCheck = this.filterCheck.bind(this);
     this.filterProducts = this.filterProducts.bind(this);
@@ -66,12 +69,12 @@ class Catalog extends Component {
 
   filterProducts() {
     let filteredProducts = [];
-    for (let i = 0; i < Products.length; i++) {
-      if (this.filterCheck("gender", Products[i]) === true &&
-          this.filterCheck("type", Products[i]) === true &&
-          this.filterCheck("size", Products[i]) === true &&
-          this.filterCheck("colour", Products[i]) === true) {
-        filteredProducts.push(Products[i]);
+    for (let i = 0; i < ProductData.length; i++) {
+      if (this.filterCheck("gender", ProductData[i]) === true &&
+          this.filterCheck("type", ProductData[i]) === true &&
+          this.filterCheck("size", ProductData[i]) === true &&
+          this.filterCheck("colour", ProductData[i]) === true) {
+        filteredProducts.push(ProductData[i]);
       }
     }
     return filteredProducts;
@@ -90,7 +93,7 @@ class Catalog extends Component {
 
   createCatalogItem(item) {
     return (
-      <CatalogItem key={item.id} id={item.id} src={item.id} price={item.price} name={item.name} />
+      <CatalogItem key={item.id} id={item.id} src={item.id} price={item.price} name={item.name} sizes={item.size} />
     )
   }
 

@@ -5,7 +5,7 @@
       "price": 21.99,
       "gender": ["mens"],
       "type": ["accessories"],
-      "size": ["x-small", "small", "medium", "large", "x-large", "xx-large", "xxx-large"],
+      "size": ["one size"],
       "colour": ["black"],
       "isFeatured": false
     },
@@ -15,7 +15,7 @@
       "price": 40.99,
       "gender": ["womens"],
       "type": ["accessories"],
-      "size": ["x-small", "small", "medium", "large", "x-large", "xx-large", "xxx-large"],
+      "size": ["one size"],
       "colour": ["black", "red"],
       "isFeatured": true
     },
@@ -25,7 +25,7 @@
       "price": 18.99,
       "gender": ["mens", "womens"],
       "type": ["accessories"],
-      "size": ["x-small", "small", "medium", "large", "x-large", "xx-large", "xxx-large"],
+      "size": ["one size"],
       "colour": ["blue"],
       "isFeatured": true
     },
@@ -35,7 +35,7 @@
       "price": 16.99,
       "gender": ["mens", "womens"],
       "type": ["accessories"],
-      "size": ["x-small", "small", "medium", "large", "x-large", "xx-large", "xxx-large"],
+      "size": ["one size"],
       "colour": ["red"],
       "isFeatured": false
     },

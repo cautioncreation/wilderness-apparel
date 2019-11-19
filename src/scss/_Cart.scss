@@ -1,0 +1,10 @@
+.cart {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cart__container {
+  padding-top: 64px;
+}

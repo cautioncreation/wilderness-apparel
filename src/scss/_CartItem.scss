@@ -1,0 +1,39 @@
+.cart-item {
+  margin-bottom: 15px;
+}
+
+.cart-item__container {
+  display: flex;
+  align-items: center;
+}
+
+.cart-item__delete-button {
+  padding: 0;
+  background: none;
+  border: none;
+  margin: 8px;
+
+  &:hover {
+    background-color: $theme-color-tertiary;
+  }
+}
+
+.cart-item__delete-icon {
+  width: 48px;
+  height: 48px;
+  padding: 4px;
+}
+
+.cart-item__image {
+  max-width: 100%;
+}
+
+.cart-item__text {
+  color: $theme-color-primary;
+}
+
+.cart-item__line {
+  margin: 8px;
+  border: none;
+  border-bottom: 1px solid black;
+}

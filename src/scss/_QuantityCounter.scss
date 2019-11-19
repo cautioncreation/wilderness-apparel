@@ -1,0 +1,42 @@
+.quantity-counter {
+  display: flex;
+}
+
+.quantity-counter__button {
+  border: 3px solid grey;
+
+  &:focus {
+    box-shadow: none;
+  }
+
+  &:active {
+    box-shadow: none;
+  }
+}
+
+.quantity-counter__button--left {
+  @extend .quantity-counter__button;
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.quantity-counter__button--right {
+  @extend .quantity-counter__button;
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.quantity-counter__button-text {
+  border: none;
+  margin: 0;
+}
+
+.quantity-counter__text-container {
+  border-top: 3px solid grey;
+  border-bottom: 3px solid grey;
+  display: flex;
+  align-items: center;
+}
+
+.quantity-counter__text {
+  margin: 0 15px;
+  color: $theme-color-primary;
+}

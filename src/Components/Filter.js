@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import { Col, Button } from 'react-bootstrap';
+import { Col } from 'react-bootstrap';
 
 import FilterItem from './FilterItem.js';
 import FilterItemButton from './FilterItemButton.js';

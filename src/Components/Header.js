@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import { IndexLinkContainer } from 'react-router-bootstrap';
-import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import { Navbar, Nav } from 'react-bootstrap';
 
 import Logo from '../Assets/svg/Logo.svg';
 import BrandName from '../Assets/svg/BrandName.svg';
@@ -21,31 +21,17 @@ class Header extends Component {
             <IndexLinkContainer className="header__link-container" to="/">
               <Nav.Link className="header__nav-link">Home</Nav.Link>
             </IndexLinkContainer>
-            <NavDropdown className="header__nav-link--dropdown" title="Shop" id="basic-nav-dropdown">
-              <IndexLinkContainer className="header__link-container" to="/shop">
-                <NavDropdown.Item className="header__nav-item" href="/shop">Men's</NavDropdown.Item>
-              </IndexLinkContainer>
-              <IndexLinkContainer className="header__link-container" to="/shop">
-                <NavDropdown.Item className="header__nav-item" href="/shop">Women's</NavDropdown.Item>
-              </IndexLinkContainer>
-              <IndexLinkContainer className="header__link-container" to="/shop">
-                <NavDropdown.Divider className="header__nav-divider"/>
-              </IndexLinkContainer>
-              <IndexLinkContainer className="header__link-container" to="/shop">
-                <NavDropdown.Item className="header__nav-item" href="/shop">Print</NavDropdown.Item>
-              </IndexLinkContainer>
-              <IndexLinkContainer className="header__link-container" to="/shop">
-                <NavDropdown.Item className="header__nav-item" href="/shop">Apparel</NavDropdown.Item>
-              </IndexLinkContainer>
-              <IndexLinkContainer className="header__link-container" to="/shop">
-                <NavDropdown.Item className="header__nav-item" href="/shop">Accessories</NavDropdown.Item>
-              </IndexLinkContainer>
-            </NavDropdown>
+            <IndexLinkContainer className="header__link-container" to="/shop">
+              <Nav.Link className="header__nav-link">Shop</Nav.Link>
+            </IndexLinkContainer>
+            <IndexLinkContainer className="header__link-container" to="/cart">
+              <Nav.Link className="header__nav-link">Cart</Nav.Link>
+            </IndexLinkContainer>
             <IndexLinkContainer className="header__link-container" to="/culture">
-              <Nav.Link className="header__nav-link" href="/culture">Culture</Nav.Link>
+              <Nav.Link className="header__nav-link">Culture</Nav.Link>
             </IndexLinkContainer>
             <IndexLinkContainer className="header__link-container" to="/contact">
-              <Nav.Link className="header__nav-link" href="#contact">Contact</Nav.Link>
+              <Nav.Link className="header__nav-link">Contact</Nav.Link>
             </IndexLinkContainer>
           </Nav>
         </Navbar.Collapse>
