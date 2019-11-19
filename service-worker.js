@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/wilderness-apparel/precache-manifest.b8b94b9c7aa0265d7be4270f4da5c078.js"
+  "/wilderness-apparel/precache-manifest.73fa1e70f665ec7e4d0e451b3fc25506.js"
 );
 
 self.addEventListener('message', (event) => {
