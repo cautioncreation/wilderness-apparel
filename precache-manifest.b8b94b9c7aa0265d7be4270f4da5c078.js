@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2b7340fa90aeba8eac430f431246d0ba",
+    "revision": "ecb7be8a295b96f129f7a8ba6a53f301",
     "url": "/wilderness-apparel/index.html"
   },
   {
-    "revision": "33a8fc3700ffeee118a5",
-    "url": "/wilderness-apparel/static/css/main.9ff0674e.chunk.css"
+    "revision": "bee899dcbf0ea2ea27c5",
+    "url": "/wilderness-apparel/static/css/main.6d6ee8bf.chunk.css"
   },
   {
     "revision": "d532aadc480e28d5c6bf",
     "url": "/wilderness-apparel/static/js/2.8379f40d.chunk.js"
   },
   {
-    "revision": "33a8fc3700ffeee118a5",
+    "revision": "bee899dcbf0ea2ea27c5",
     "url": "/wilderness-apparel/static/js/main.91a6123b.chunk.js"
   },
   {
