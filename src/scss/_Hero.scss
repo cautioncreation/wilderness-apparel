@@ -18,10 +18,15 @@
   background-size: cover; /* Resize the background image to cover the entire container */
 }
 
+.hero__text-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .hero__text {
-  display: block;
   max-width: 80%;
-  margin: auto;
+  text-align: center;
 }
 
 .hero__button {
