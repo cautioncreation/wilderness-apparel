@@ -1,50 +1,31 @@
 import React, { Component } from 'react';
 
-import CatalogView from './CatalogView';
-
 import { Col, Card, Button } from 'react-bootstrap';
 
 class CatalogItem extends Component {
   constructor(props) {
     super(props);
 
-    this.state = ({
-      buttonClicked: false
-    });
-
-    this.toggleQuickView = this.toggleQuickView.bind(this);
+    this.handleClick = this.handleClick.bind(this);
   }
 
-  toggleQuickView() {
-    this.setState({buttonClicked: !this.state.buttonClicked});
+  handleClick() {
+    this.props.onClick(this.props.item);
   }
 
   render() {
-    let fileName = "./" + this.props.src + ".jpg";
-    let images = require.context('../Assets/products');
-    let source = images(fileName);
-
-    return(
+    return (
       <React.Fragment>
         <Col className="catalog-item" xs="12" md="6" lg="4">
           <Card className="catalog-item__container">
-            <button className="catalog-item__image-container" onClick={this.toggleQuickView}>
-              <img className="catalog-item__image" src={source} alt="Product" />
+            <button className="catalog-item__image-container" onClick={this.handleClick}>
+              <img className="catalog-item__image" src={this.props.item.src} alt="Product" />
             </button>
-            <h3 className="catalog-item__text">${this.props.price}</h3>
-            <h3 className="catalog-item__text">{this.props.name}</h3>
-            <Button className="catalog-item__button" size="block" onClick={this.toggleQuickView}>Quick View</Button>
+            <h3 className="catalog-item__text">${this.props.item.price}</h3>
+            <h3 className="catalog-item__text">{this.props.item.name}</h3>
+            <Button className="catalog-item__button" size="block" onClick={this.handleClick}>Quick View</Button>
           </Card>
         </Col>
-        <CatalogView
-          show={this.state.buttonClicked}
-          handleClick={this.toggleQuickView}
-          name={this.props.name}
-          price={"$" + this.props.price}
-          sizes={this.props.sizes}
-          src={source}
-          id={this.props.id}
-        />
     </React.Fragment>
     )
   }

@@ -3,20 +3,26 @@ import React, { Component } from 'react';
 import { Col, Row } from 'react-bootstrap';
 
 import CatalogItem from './CatalogItem';
+import CatalogView from './CatalogView';
 
 import ProductData from './../Utilities/Products.json';
+import { addToCart } from './../Utilities/shoppingCart.js';
 
 class Catalog extends Component {
   constructor(props) {
     super(props);
 
-    console.log(ProductData);
-
+    this.state = ({
+      catalogViewItem: ProductData[0],
+      catalogViewIsOpen: false
+    });
     this.sortProducts = this.sortProducts.bind(this);
     this.filterCheck = this.filterCheck.bind(this);
     this.filterProducts = this.filterProducts.bind(this);
     this.createCatalog = this.createCatalog.bind(this);
     this.createCatalogItem = this.createCatalogItem.bind(this);
+    this.toggleCatalogView = this.toggleCatalogView.bind(this);
+    this.addItem = this.addItem.bind(this);
   }
 
   sortProducts(products) {
@@ -53,7 +59,6 @@ class Catalog extends Component {
     let filter = filterType + "Filter";
     filter = this.props[filter];
     let productFilterLocation = product[filterType];
-
     if (filter.length > 0) {
       for (let i = 0; i < filter.length; i++) {
         if (productFilterLocation.indexOf(filter[i]) > -1) {
@@ -72,7 +77,7 @@ class Catalog extends Component {
     for (let i = 0; i < ProductData.length; i++) {
       if (this.filterCheck("gender", ProductData[i]) === true &&
           this.filterCheck("type", ProductData[i]) === true &&
-          this.filterCheck("size", ProductData[i]) === true &&
+          this.filterCheck("sizes", ProductData[i]) === true &&
           this.filterCheck("colour", ProductData[i]) === true) {
         filteredProducts.push(ProductData[i]);
       }
@@ -92,17 +97,43 @@ class Catalog extends Component {
   }
 
   createCatalogItem(item) {
+    let fileName = "./" + item.id + ".jpg";
+    let images = require.context('../Assets/products');
+    item.src = images(fileName);
+
     return (
-      <CatalogItem key={item.id} id={item.id} src={item.id} price={item.price} name={item.name} sizes={item.size} />
+      <CatalogItem
+        key={item.id}
+        item={item}
+        onClick={this.toggleCatalogView}
+      />
     )
+  }
+
+  toggleCatalogView(inputItem) {
+    this.setState({
+      catalogViewItem: inputItem,
+      catalogViewIsOpen: !this.state.catalogViewIsOpen
+    });
+  }
+
+  addItem(inputId, inputQuantity, inputSize) {
+    addToCart(inputId, inputQuantity, inputSize);
+
   }
 
   render() {
     return (
-      <Col className="shop-list" xs="12" lg="9">
-        <Row className="shop-list__container">
+      <Col className="catalog" xs="12" lg="9">
+        <Row className="catalog__container">
           {this.createCatalog()}
         </Row>
+        <CatalogView
+          item={this.state.catalogViewItem}
+          show={this.state.catalogViewIsOpen}
+          addItem={this.addItem}
+          toggleCatalogView={this.toggleCatalogView}
+        />
       </Col>
     )
   }

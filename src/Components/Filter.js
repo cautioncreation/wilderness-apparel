@@ -26,14 +26,14 @@ class Filter extends Component {
             <FilterItemButton text="price high to low" type="sortFilter" onClick={this.props.replaceFilter} array={this.props.sortFilter} />
             <FilterItemButton text="featured items first" type="sortFilter" onClick={this.props.replaceFilter} array={this.props.sortFilter} />
           </FilterItem>
-          <FilterItem title="Size" arrayLength={this.props.sizeFilter.length}>
-            <FilterItemButton text="x-small" type="sizeFilter" onClick={this.props.toggleFilter} array={this.props.sizeFilter} />
-            <FilterItemButton text="small" type="sizeFilter" onClick={this.props.toggleFilter} array={this.props.sizeFilter} />
-            <FilterItemButton text="medium" type="sizeFilter" onClick={this.props.toggleFilter} array={this.props.sizeFilter} />
-            <FilterItemButton text="large" type="sizeFilter" onClick={this.props.toggleFilter} array={this.props.sizeFilter} />
-            <FilterItemButton text="x-large" type="sizeFilter" onClick={this.props.toggleFilter} array={this.props.sizeFilter} />
-            <FilterItemButton text="xx-large" type="sizeFilter" onClick={this.props.toggleFilter} array={this.props.sizeFilter} />
-            <FilterItemButton text="xxx-large" type="sizeFilter" onClick={this.props.toggleFilter} array={this.props.sizeFilter} />
+          <FilterItem title="Sizes" arrayLength={this.props.sizesFilter.length}>
+            <FilterItemButton text="x-small" type="sizesFilter" onClick={this.props.toggleFilter} array={this.props.sizesFilter} />
+            <FilterItemButton text="small" type="sizesFilter" onClick={this.props.toggleFilter} array={this.props.sizesFilter} />
+            <FilterItemButton text="medium" type="sizesFilter" onClick={this.props.toggleFilter} array={this.props.sizesFilter} />
+            <FilterItemButton text="large" type="sizesFilter" onClick={this.props.toggleFilter} array={this.props.sizesFilter} />
+            <FilterItemButton text="x-large" type="sizesFilter" onClick={this.props.toggleFilter} array={this.props.sizesFilter} />
+            <FilterItemButton text="xx-large" type="sizesFilter" onClick={this.props.toggleFilter} array={this.props.sizesFilter} />
+            <FilterItemButton text="xxx-large" type="sizesFilter" onClick={this.props.toggleFilter} array={this.props.sizesFilter} />
           </FilterItem>
           <FilterItem title="Colour" arrayLength={this.props.colourFilter.length}>
             <FilterItemButton text="red" type="colourFilter" onClick={this.props.toggleFilter} array={this.props.colourFilter} />

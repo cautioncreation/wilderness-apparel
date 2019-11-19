@@ -1,5 +1,10 @@
 .cart-list {
-  margin-bottom: 30px;
+  margin-top: 30px;
+  order: 1;
+}
+
+.cart-list__row {
+  display: none;
 }
 
 .cart-list__text {
@@ -10,4 +15,16 @@
   border: none;
   border-bottom: 2px solid black;
   margin-top: 0;
+}
+
+@include media-breakpoint-up(md) {
+  .cart-list__row {
+    display: flex;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .cart-list {
+    order: 0;
+  }
 }

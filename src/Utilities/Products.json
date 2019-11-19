@@ -5,7 +5,7 @@
       "price": 21.99,
       "gender": ["mens"],
       "type": ["accessories"],
-      "size": ["one size"],
+      "sizes": ["one size"],
       "colour": ["black"],
       "isFeatured": false
     },
@@ -15,7 +15,7 @@
       "price": 40.99,
       "gender": ["womens"],
       "type": ["accessories"],
-      "size": ["one size"],
+      "sizes": ["one size"],
       "colour": ["black", "red"],
       "isFeatured": true
     },
@@ -25,7 +25,7 @@
       "price": 18.99,
       "gender": ["mens", "womens"],
       "type": ["accessories"],
-      "size": ["one size"],
+      "sizes": ["one size"],
       "colour": ["blue"],
       "isFeatured": true
     },
@@ -35,7 +35,7 @@
       "price": 16.99,
       "gender": ["mens", "womens"],
       "type": ["accessories"],
-      "size": ["one size"],
+      "sizes": ["one size"],
       "colour": ["red"],
       "isFeatured": false
     },
@@ -45,7 +45,7 @@
       "price": 60.99,
       "gender": ["mens"],
       "type": ["pants"],
-      "size": ["x-small", "small", "medium", "large", "x-large", "xx-large", "xxx-large"],
+      "sizes": ["x-small", "small", "medium", "large", "x-large", "xx-large", "xxx-large"],
       "colour": ["black"],
       "isFeatured": true
     },
@@ -55,7 +55,7 @@
       "price": 39.99,
       "gender": ["mens"],
       "type": ["pants"],
-      "size": ["x-small", "small", "medium", "large", "x-large", "xx-large", "xxx-large"],
+      "sizes": ["x-small", "small", "medium", "large", "x-large", "xx-large", "xxx-large"],
       "colour": ["yellow"],
       "isFeatured": false
     },
@@ -65,7 +65,7 @@
       "price": 50.99,
       "gender": ["womens"],
       "type": ["pants"],
-      "size": ["x-small", "small", "medium", "large", "x-large", "xx-large", "xxx-large"],
+      "sizes": ["x-small", "small", "medium", "large", "x-large", "xx-large", "xxx-large"],
       "colour": ["black"],
       "isFeatured": false
     },
@@ -75,7 +75,7 @@
       "price": 60.99,
       "gender": ["womens"],
       "type": ["pants"],
-      "size": ["x-small", "small", "medium", "large", "x-large", "xx-large", "xxx-large"],
+      "sizes": ["x-small", "small", "medium", "large", "x-large", "xx-large", "xxx-large"],
       "colour": ["red"],
       "isFeatured": true
     },
@@ -85,7 +85,7 @@
       "price": 22.99,
       "gender": ["mens"],
       "type": ["shirts"],
-      "size": ["x-small", "small", "medium", "large", "x-large", "xx-large", "xxx-large"],
+      "sizes": ["x-small", "small", "medium", "large", "x-large", "xx-large", "xxx-large"],
       "colour": ["green"],
       "isFeatured": true
     },
@@ -95,7 +95,7 @@
       "price": 27.99,
       "gender": ["mens"],
       "type": ["shirts"],
-      "size": ["x-small", "small", "medium", "large", "x-large", "xx-large", "xxx-large"],
+      "sizes": ["x-small", "small", "medium", "large", "x-large", "xx-large", "xxx-large"],
       "colour": ["grey", "green"],
       "isFeatured": false
     },
@@ -105,7 +105,7 @@
       "price": 23.99,
       "gender": ["womens"],
       "type": ["shirts"],
-      "size": ["x-small", "small", "medium", "large", "x-large", "xx-large", "xxx-large"],
+      "sizes": ["x-small", "small", "medium", "large", "x-large", "xx-large", "xxx-large"],
       "colour": ["black", "white"],
       "isFeatured": true
     },
@@ -115,7 +115,7 @@
       "price": 24.99,
       "gender": ["womens"],
       "type": ["shirts"],
-      "size": ["x-small", "small", "medium", "large", "x-large", "xx-large", "xxx-large"],
+      "sizes": ["x-small", "small", "medium", "large", "x-large", "xx-large", "xxx-large"],
       "colour": ["blue", "white"],
       "isFeatured": false
     },
@@ -125,7 +125,7 @@
       "price": 71.99,
       "gender": ["mens"],
       "type": ["sweaters"],
-      "size": ["x-small", "small", "medium", "large", "x-large", "xx-large", "xxx-large"],
+      "sizes": ["x-small", "small", "medium", "large", "x-large", "xx-large", "xxx-large"],
       "colour": ["green"],
       "isFeatured": true
     },
@@ -135,7 +135,7 @@
       "price": 64.99,
       "gender": ["mens"],
       "type": ["sweaters"],
-      "size": ["x-small", "small", "medium", "large", "x-large", "xx-large", "xxx-large"],
+      "sizes": ["x-small", "small", "medium", "large", "x-large", "xx-large", "xxx-large"],
       "colour": ["black"],
       "isFeatured": false
     },
@@ -145,7 +145,7 @@
       "price": 53.99,
       "gender": ["womens"],
       "type": ["sweaters"],
-      "size": ["x-small", "small", "medium", "large", "x-large", "xx-large", "xxx-large"],
+      "sizes": ["x-small", "small", "medium", "large", "x-large", "xx-large", "xxx-large"],
       "colour": ["pink"],
       "isFeatured": false
     },
@@ -155,7 +155,7 @@
       "price": 58.99,
       "gender": ["womens"],
       "type": ["sweaters"],
-      "size": ["x-small", "small", "medium", "large", "x-large", "xx-large", "xxx-large"],
+      "sizes": ["x-small", "small", "medium", "large", "x-large", "xx-large", "xxx-large"],
       "colour": ["red", "white"],
       "isFeatured": true
     }

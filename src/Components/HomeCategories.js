@@ -15,7 +15,7 @@ class HomeCategories extends Component {
   render() {
 
     return (
-      <div className="home-categories">
+      <div className="home-categories" id="HomeCategories">
         <Container className="home-categories__container" fluid="true">
           <Row className="home-categories__row">
             <HomeCategoryItem src={Mens} alt="Mens" to="/shop" xs="12" lg="6" />

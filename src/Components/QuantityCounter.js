@@ -11,7 +11,9 @@ class QuantityCounter extends Component {
   }
 
   decrement() {
-    this.props.decrement();
+    if (this.props.quantity > 1) {
+      this.props.decrement();
+    }
   }
 
   increment() {

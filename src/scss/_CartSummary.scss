@@ -1,0 +1,30 @@
+.cart-summary {
+  margin-top: 30px;
+}
+.cart-summary__line {
+  margin: 0;
+}
+
+.cart-summary__container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.cart-summary__title {
+  color: $theme-color-primary;
+  width: 100%;
+  text-align: center;
+}
+
+.cart-summary__text {
+  color: $theme-color-primary;
+}
+
+.cart-summary__button {
+  margin-top: 30px;
+}
+
+.cart-summary__button-text {
+  margin: 0;
+}

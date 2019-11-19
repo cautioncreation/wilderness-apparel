@@ -1,68 +1,50 @@
 import ProductData from './Products.json';
 
-function getCart() {
+export function getCart() {
   let cart = JSON.parse(window.localStorage.getItem('shoppingCart')) || [];
-
   return cart;
 }
 
 export function addToCart(inputId, inputQuantity, inputSize) {
   let cart = getCart();
   let itemFound = false;
-  let itemSize = [inputSize];
 
   for (let i = 0; i < cart.length; i++) {
-    let item = cart[i] || [];
-    if (item.id === inputId && item.size === inputSize) {
+    if (cart[i].id === inputId && cart[i].size === inputSize) {
       itemFound = true;
-      item.quantity += inputQuantity;
+      cart[i].quantity += inputQuantity;
     }
   }
+
   if (itemFound === false) {
-    let item = {
-      id: inputId,
-      quantity: inputQuantity,
-      size: itemSize
-    }
-    cart.push(item);
-  }
-  window.localStorage.setItem('shoppingCart', JSON.stringify(cart));
-}
-
-export function changeItemQuantity(inputId, inputQuantity, inputSize) {
-  let cart = getCart();
-
-  for (let i = 0; i < cart.length; i++) {
-    let item = cart[i];
-
-    if (item.id === inputId && item.size === inputSize) {
-      item.quantity += inputQuantity;
-
-
-      if (item.quantity <= 0) {
-        cart.splice(i, 1);
+    for (let i = 0; i < ProductData.length; i++) {
+      if (ProductData[i].id === inputId) {
+        let item = {
+          id: ProductData[i].id,
+          name: ProductData[i].name,
+          price: ProductData[i].price,
+          src: ProductData[i].src,
+          size: inputSize,
+          quantity: inputQuantity
+        };
+        cart.push(item);
       }
     }
   }
   window.localStorage.setItem('shoppingCart', JSON.stringify(cart));
 }
 
-export function getCartItems() {
+export function removeFromCart(inputId, inputQuantity, inputSize) {
   let cart = getCart();
-  let outputCart = [];
 
   for (let i = 0; i < cart.length; i++) {
-    let item = cart[i] || [];
+    if (cart[i].id === inputId && cart[i].size === inputSize) {
+      cart[i].quantity -= inputQuantity;
+    }
 
-    for (let j = 0; j < ProductData.length; j++) {
-      let product = ProductData[j];
-
-      if (item.id === product.id) {
-        product["quantity"] = item.quantity;
-        product["size"] = item.size;
-        outputCart.push(product);
-      }
+    if (cart[i].quantity < 1) {
+      cart.splice(i, 1);
     }
   }
-  return outputCart;
+  window.localStorage.setItem('shoppingCart', JSON.stringify(cart));
 }

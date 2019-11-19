@@ -16,10 +16,10 @@ class Shop extends Component {
       genderFilter: [],
       typeFilter: [],
       sortFilter: ["featured items first"],
-      sizeFilter: [],
+      sizesFilter: [],
       colourFilter: []
     };
-    
+
     this.toggleFilter = this.toggleFilter.bind(this);
     this.replaceFilter = this.replaceFilter.bind(this);
   }
@@ -55,7 +55,7 @@ class Shop extends Component {
               genderFilter={this.state.genderFilter}
               typeFilter={this.state.typeFilter}
               sortFilter={this.state.sortFilter}
-              sizeFilter={this.state.sizeFilter}
+              sizesFilter={this.state.sizesFilter}
               colourFilter={this.state.colourFilter}
               toggleFilter={this.toggleFilter}
               replaceFilter={this.replaceFilter}
@@ -64,7 +64,7 @@ class Shop extends Component {
               genderFilter={this.state.genderFilter}
               typeFilter={this.state.typeFilter}
               sortFilter={this.state.sortFilter}
-              sizeFilter={this.state.sizeFilter}
+              sizesFilter={this.state.sizesFilter}
               colourFilter={this.state.colourFilter}
             />
           </Row>
