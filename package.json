@@ -36,5 +36,6 @@
   },
   "devDependencies": {
     "node-sass": "^4.13.0"
-  }
+  },
+  "homepage": "http://cautioncreation.github.io/wilderness-apparel"
 }
