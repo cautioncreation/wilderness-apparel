@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="DeleteButton" transform="translate(-35 -640)">
+    <g id="Border" transform="translate(35 640)" fill="none" stroke="#fff" stroke-width="3">
+      <rect width="50" height="50" stroke="none"/>
+      <rect x="1.5" y="1.5" width="47" height="47" fill="none"/>
+    </g>
+    <line id="HorizontalLine" x1="39" transform="translate(40.5 665.5)" fill="none" stroke="#fff" stroke-width="3"/>
+  </g>
+</svg>
