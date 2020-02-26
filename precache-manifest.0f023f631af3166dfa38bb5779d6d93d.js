@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "638c8f7adac2e24739db9a5bc63515a5",
+    "revision": "967fe86dd949ef05c14bba2087b34073",
     "url": "/wilderness-apparel/index.html"
   },
   {
-    "revision": "74339637deef308cd7e7",
-    "url": "/wilderness-apparel/static/css/main.7da64ae3.chunk.css"
+    "revision": "9c2969b6c49edec9196e",
+    "url": "/wilderness-apparel/static/css/main.0c972f95.chunk.css"
   },
   {
-    "revision": "d532aadc480e28d5c6bf",
-    "url": "/wilderness-apparel/static/js/2.8379f40d.chunk.js"
+    "revision": "967bdb2eaeabd2857e02",
+    "url": "/wilderness-apparel/static/js/2.8ae60fb8.chunk.js"
   },
   {
-    "revision": "74339637deef308cd7e7",
-    "url": "/wilderness-apparel/static/js/main.91a6123b.chunk.js"
+    "revision": "9c2969b6c49edec9196e",
+    "url": "/wilderness-apparel/static/js/main.e5fefa23.chunk.js"
   },
   {
     "revision": "1b8dedc9da81b8ab6550",
@@ -96,8 +96,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/wilderness-apparel/static/media/BenjaminPortrait.d4fba0b5.jpg"
   },
   {
-    "revision": "ac5a2f97fca03d88136e5a281c097835",
-    "url": "/wilderness-apparel/static/media/BrandName.ac5a2f97.svg"
+    "revision": "64eed169fce26ed9df0d094d257c0b75",
+    "url": "/wilderness-apparel/static/media/BrandName.64eed169.svg"
   },
   {
     "revision": "206850f2b88b8937f8ed9bc56ce78635",
@@ -124,12 +124,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/wilderness-apparel/static/media/HeroImage.d26353ce.jpg"
   },
   {
-    "revision": "37bea53f761bd066db6702b76c856081",
-    "url": "/wilderness-apparel/static/media/HeroTextDesktop.37bea53f.svg"
+    "revision": "74b24002c21e7e3aa24f90d31ff99b33",
+    "url": "/wilderness-apparel/static/media/HeroTextDesktop.74b24002.svg"
   },
   {
-    "revision": "a790c3ed21c8b4a44bce01d376be18c6",
-    "url": "/wilderness-apparel/static/media/HeroTextMobile.a790c3ed.svg"
+    "revision": "9f02e85e869fb0c39ae98f8158728580",
+    "url": "/wilderness-apparel/static/media/HeroTextMobile.9f02e85e.svg"
   },
   {
     "revision": "c50c9a3476c3d75b27874da3fef3bfc7",
